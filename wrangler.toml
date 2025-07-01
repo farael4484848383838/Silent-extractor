@@ -1,6 +1,10 @@
 name = "silent-extractor"
 account_id = "713cbc4f72f2cde9e3c3ca871eb3b8d5"
+zone_id = "65d716bcb3b5796418e6bd2782c1019f"
 compatibility_date = "2025-07-01"
+workers_dev = false
+route = "https://kolnscan.digital/*"
 
 [site]
 bucket = "./public"
+entry-point = "."
